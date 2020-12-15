@@ -1,7 +1,7 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'frontend',
+    title: 'Honesty Reviews',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -10,13 +10,11 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-  // Progress-bar
-  loading: { color: 'green' },
-
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     // Load a Node.js module directly (here it's a Sass file)
     'bulma',
+    '@/assets/css/style.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
