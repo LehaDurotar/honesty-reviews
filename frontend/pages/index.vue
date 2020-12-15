@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>Hello World</h1>
-  </div>
+  <div>Главная</div>
 </template>
 <script>
 export default {}

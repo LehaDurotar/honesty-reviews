@@ -1,27 +1,28 @@
 <template>
-  <b-navbar>
-    <template slot="brand">
-      <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <img
-          src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-          alt="Lightweight UI components for Vue.js based on Bulma"
-        />
-      </b-navbar-item>
-    </template>
-    <template slot="start">
-      <b-navbar-item href="#"> Главная </b-navbar-item>
-      <b-navbar-item href="#"> App </b-navbar-item>
-    </template>
+  <header>
+    <b-navbar class="is-light">
+      <template slot="start">
+        <b-navbar-item tag="nuxt-link" to="/">Главная</b-navbar-item>
+        <b-navbar-item tag="nuxt-link" to="/service">Сервис </b-navbar-item>
+        <b-navbar-item tag="nuxt-link" to="/faq">FAQ </b-navbar-item>
+      </template>
 
-    <template slot="end">
-      <b-navbar-item tag="div">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light"> Log in </a>
-        </div>
-      </b-navbar-item>
-    </template>
-  </b-navbar>
+      <template slot="end">
+        <b-navbar-item tag="div">
+          <div class="signup-buttons">
+            <b-button type="is-primary">
+              <strong>Регистрация</strong>
+            </b-button>
+            <b-button type="is-link is-light">Логин</b-button>
+          </div>
+        </b-navbar-item>
+      </template>
+    </b-navbar>
+  </header>
 </template>
+
+<script>
+export default {}
+</script>
+
+<style></style>
