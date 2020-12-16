@@ -5,10 +5,3 @@
     <nuxt-link to="/">Главная</nuxt-link>
   </section>
 </template>
-<style scoped>
-section {
-  width: 600px;
-  margin: 0 auto;
-  padding-top: 5rem;
-}
-</style>

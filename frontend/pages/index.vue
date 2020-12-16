@@ -1,8 +1,5 @@
 <template>
-  <div>Главная</div>
+  <div>
+    <MainWelcome />
+  </div>
 </template>
-<script>
-export default {}
-</script>
-
-<style></style>
