@@ -11,11 +11,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-    // Load a Node.js module directly (here it's a Sass file)
-    'bulma',
-    '~/assets/scss/style.scss',
-  ],
+  css: ['~/assets/css/main.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -27,20 +23,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/style-resources',
+    '@nuxtjs/tailwindcss',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/buefy
-    'nuxt-buefy',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
-
-  styleResources: {
-    scss: ['./assets/scss/*.scss'],
-  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},

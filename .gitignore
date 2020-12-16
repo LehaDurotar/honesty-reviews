@@ -4,3 +4,4 @@
 .project
 .classpath
 *.launch
+frontend/assets/template.html
