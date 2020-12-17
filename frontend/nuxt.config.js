@@ -34,7 +34,7 @@ export default {
   ],
 
   router: {
-    base: '/<repository-name>/',
+    base: '/honesty-reviews/',
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
