@@ -82,6 +82,7 @@ dist
 # IDE / Editor
 .idea
 .vscode
+vetur.config.js
 
 # Service worker
 sw.*
