@@ -1,5 +1,4 @@
-before_script:
-  cd src
+before_script: cd src
 
 language: node_js
 node_js:
