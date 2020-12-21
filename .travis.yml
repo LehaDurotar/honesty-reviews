@@ -1,8 +1,9 @@
+before_script:
+  cd src
+
 language: node_js
 node_js:
   - '8'
-
-before_install: cd src
 
 cache:
   directories:
