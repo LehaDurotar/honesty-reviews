@@ -27,11 +27,11 @@
       >
         © 2020 Honesty Reviews —
         <a
-          href="https://twitter.com/knyttneve"
+          href="https://t.me/kurkl"
           class="text-gray-600 ml-1"
           rel="noopener noreferrer"
           target="_blank"
-          >@knyttneve</a
+          >@kurkl</a
         >
       </p>
       <span

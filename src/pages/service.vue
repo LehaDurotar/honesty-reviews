@@ -1,3 +1,5 @@
 <template>
-  <div>Сервис</div>
+  <div>
+    <SearchBar />
+  </div>
 </template>
